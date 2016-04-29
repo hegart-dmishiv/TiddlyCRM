@@ -43,7 +43,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>SampleData Playground — A playground for the TiddlyCRM project.</title>
+<title>TiddlyCRM — $:/core/wiki/title</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -514,6 +514,8 @@ Error message and password prompt
 <li>$:/core/ui/SideBarLists</li>
 
 <li>$:/core/ui/SideBarLists/search</li>
+
+<li>$:/core/wiki/title</li>
 
 <li>$:/DefaultTiddlers</li>
 
@@ -10693,6 +10695,9 @@ TiddlyCRM is also useful for managing your personal relationships. When did you 
 
 &lt;/$set&gt;</pre>
 </div>
+<div created="20160203212258405" creator="HegartDmishiv" modified="20160429093728370" modifier="HegartDmishiv" purpose="Sets the [[$:/SiteTitle]] to display its ``alt-caption`` field if it exists. Also, displays the title of the most recently opened tiddler instead of the [[$:/SiteSubtitle]]. See [[this discussion|https://groups.google.com/forum/#!topic/tiddlywiki/zO_qM3HYgKg]] for details." tags="SampleDataExtras" title="$:/core/wiki/title" type="text/vnd.tiddlywiki">
+<pre>&lt;$tiddler tiddler=&quot;$:/SiteTitle&quot;&gt;&lt;$view field=&quot;alt-caption&quot; /&gt;&lt;/$tiddler&gt; — {{$:/HistoryList!!current-tiddler}}</pre>
+</div>
 <div created="20160325090419143" modified="20160408095702677" tags="SampleDataExtras" title="$:/DefaultTiddlers">
 <pre>Home
 </pre>
@@ -10700,117 +10705,18 @@ TiddlyCRM is also useful for managing your personal relationships. When did you 
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[Expect Letter from Emma Singh by 24-Oct-2016 at 01:06pm]]
-# [[Escalate to Parnell Road Clothing Ventures by 16-Apr-2016 at 06:10am]]
-# [[Return Goods to Madison Walker by 20-Jul-2016 at 11:13am]]
-# [[Expect Email from East Tamaki Stationery Company by 07-Nov-2016 at 05:57pm]]
-# [[Schedule Meeting with Liam Brown by 19-Jul-2016 at 09:35am]]
-# [[Expect Letter from Mia Food Society, Incorporated by 21-Aug-2016 at 03:08pm]]
-# [[Expect Letter from George Yang by 28-Aug-2016 at 07:19am]]
-# [[Escalate to Eli Thompson by 11-May-2016 at 08:38am]]
-# [[Expect Letter from Glen Eden Aquatic Ventures by 03-Nov-2016 at 04:00pm]]
-# [[Expect Callback from Isabella Baker by 30-Jun-2016 at 09:30am]]
-# [[Send Reply to Charlotte Wang of Oliver Toy Ventures Limited by 27-Jul-2016 at 08:42am]]
-# [[Expect Visit from Georgia Campbell of Franklin Road Advocacy Society, Incorporated by 03-Jul-2016 at 11:17am]]
-# [[Schedule Meeting with Auckland Advocacy Society, Incorporated by 09-Aug-2016 at 10:41pm]]
-# [[Send Reply to Liam Wu by 07-Dec-2016 at 01:27pm]]
-# [[Expect Letter from Maddison Chen by 03-Jun-2016 at 06:58pm]]
-# [[Send Reply to Blake Scott by 19-Nov-2016 at 07:52am]]
-# [[Schedule Meeting with Taylor Advocacy Society, Incorporated by 21-Sep-2016 at 07:56pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 29-Oct-2016 at 06:46pm]]
-# [[Expect Email from Henderson Bakery Company (2006), Limited by 03-Apr-2016 at 10:31pm]]
-# [[Return Goods to Evelyn Kim by 19-Jun-2016 at 09:41am]]
-# [[Forward to Georgia Stationery Company (1992), Limited by 24-May-2016 at 06:55pm]]
-# [[Follow Up with Freemans Bay Aquatic Institute by 22-May-2016 at 03:24pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 06-Sep-2016 at 11:21am]]
-# [[Expect Callback from Elijah Li by 21-Sep-2016 at 01:49pm]]
-# [[Send Reply to Lily Huang by 23-Apr-2016 at 09:36am]]
-# [[Expect Callback from Hurstmere Road Gift &amp; Souvenir Company, Limited by 05-Sep-2016 at 07:26pm]]
-# [[Expect Email from Wellington Management Company (2000), Limited by 11-Sep-2016 at 02:27pm]]
-# [[Expect Callback from Riley White of Georgia Stationery Company (1992), Limited by 25-May-2016 at 07:31pm]]
-# [[Expect Letter from Joseph Thompson by 23-May-2016 at 02:02pm]]
-# [[Follow Up with Lily Wang by 20-Jun-2016 at 08:29pm]]
-# [[Send Reply to Wellington Butchery Company, Limited by 24-Apr-2016 at 07:53pm]]
-# [[Forward to Auckland General Merchant Dealers by 26-Jun-2016 at 06:00am]]
-# [[Follow Up with Isabelle Lee of Auckland Promotion School by 24-Oct-2016 at 06:58am]]
-# [[Follow Up with Liam Wu by 01-Dec-2016 at 09:39pm]]
-# [[Expect Letter from Elizabeth Walker by 21-Oct-2016 at 01:17pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 02-Apr-2016 at 12:21pm]]
-# [[Follow Up with Alexander Travel Company, Limited by 14-Jun-2016 at 07:44am]]
-# [[Forward to Jacob Smith by 24-Oct-2016 at 07:49pm]]
-# [[Follow Up with Beau Zhou by 13-Sep-2016 at 07:06am]]
-# [[Follow Up with Henry Zhou by 16-May-2016 at 03:44pm]]
-# [[Expect Visit from Thomas Advocacy Society, Incorporated by 30-Dec-2016 at 08:35am]]
-# [[Send Reply to Oliver Lee by 08-Jul-2016 at 03:30pm]]
-# [[Return Goods to Joseph Wang by 10-Jul-2016 at 02:16pm]]
-# [[Return Goods to Auckland Recording Company, Limited by 30-Nov-2016 at 06:36pm]]
-# [[Expect Callback from Charlie Williams by 12-Aug-2016 at 06:17am]]
-# [[Follow Up with Max Kumar by 14-Jul-2016 at 11:03am]]
-# [[Send Reply to Ethan Campbell by 15-Dec-2016 at 07:38am]]
-# [[Follow Up with Emma Robinson by 03-Aug-2016 at 03:25pm]]
-# [[Expect Email from Max Kumar by 22-Nov-2016 at 06:58am]]
-# [[Follow Up with Ryan Dance Company, Limited by 21-Jul-2016 at 02:27pm]]
-# [[Follow Up with Ethan Campbell by 12-Nov-2016 at 09:44pm]]
-# [[Schedule Meeting with Evelyn Kim by 03-Jul-2016 at 10:14pm]]
-# [[Schedule Meeting with Emma Robinson by 11-Dec-2016 at 08:31pm]]
-# [[Expect Callback from Madison Scott of Sienna Civil Engineering Company, Limited by 03-Sep-2016 at 09:24pm]]
-# [[Expect Letter from Ethan Campbell by 15-Dec-2016 at 03:27pm]]
-# [[Follow Up with Zoe Promotion Company, Limited by 16-Nov-2016 at 06:52am]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 27-Dec-2016 at 01:03pm]]
-# [[Send Reply to George Huang by 18-Sep-2016 at 09:05pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 20-Nov-2016 at 09:56am]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 23-Dec-2016 at 01:51pm]]
-# [[Escalate to Maddison Chen by 13-Sep-2016 at 05:00pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 03-Nov-2016 at 12:05pm]]
-# [[Escalate to Harper Motor Charitable Trust by 16-Sep-2016 at 06:24pm]]
-# [[Schedule Meeting with Ella Jones by 22-Apr-2016 at 11:02am]]
-# [[Schedule Meeting with Auckland Advocacy Society, Incorporated by 24-Oct-2016 at 08:10pm]]
-# [[Expect Callback from Harper Mitchell of King Appliance Company, Limited by 01-Sep-2016 at 09:06pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 20-Aug-2016 at 08:15am]]
-# [[Follow Up with Li Furniture Company, Limited by 14-Apr-2016 at 01:59pm]]
-# [[Return Goods to Benjamin Brown by 11-Nov-2016 at 07:32am]]
-# [[Expect Letter from Evie Wu by 28-Jun-2016 at 10:50pm]]
-# [[Expect Email from Beau Zhou by 28-Jul-2016 at 06:00pm]]
-# [[Follow Up with Glen Eden Aquatic Ventures by 25-Jul-2016 at 06:55pm]]
-# [[Schedule Meeting with Liam Brown by 07-Nov-2016 at 03:01pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 18-Jul-2016 at 03:33pm]]
-# [[Follow Up with Finn Zhou by 04-Sep-2016 at 08:34pm]]
-# [[Expect Email from Lily Singh by 10-Dec-2016 at 04:36pm]]
-# [[Schedule Meeting with Maddison Health Foods Company (2010), Limited by 13-May-2016 at 06:50pm]]
-# [[Schedule Meeting with Oliver Lee by 08-Jul-2016 at 08:51pm]]
-# [[Forward to Benjamin Johnston by 10-Sep-2016 at 11:23am]]
-# [[Follow Up with Emma Robinson by 22-Jul-2016 at 07:42am]]
-# [[Send Reply to Ava Appliance Wānanga by 16-Apr-2016 at 12:00pm]]
-# [[Send Reply to Samuel Thompson by 09-May-2016 at 05:16pm]]
-# [[Send Reply to Lily Singh by 11-Jun-2016 at 11:51am]]
-# [[Expect Email from Eli Robinson by 24-Oct-2016 at 07:59pm]]
-# [[Return Goods to Auckland Fitness Company, Limited by 03-Nov-2016 at 09:24am]]
-# [[Expect Visit from Ethan Campbell by 22-Jun-2016 at 08:51pm]]
-# [[Expect Letter from Leo Yang by 24-Nov-2016 at 08:36am]]
-# [[Send Reply to Takapuna Real Estate Charitable Trust by 03-Apr-2016 at 08:12am]]
-# [[Schedule Meeting with Maddison Health Foods Company (2010), Limited by 12-Apr-2016 at 06:52pm]]
-# [[Follow Up with Lucy Lee by 23-Dec-2016 at 09:41am]]
-# [[Send Reply to Emily Kumar by 10-May-2016 at 08:06am]]
-# [[Send Reply to Henry Singh by 25-Apr-2016 at 09:41am]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 11-Apr-2016 at 06:53am]]
-# [[Send Reply to Henderson Bakery Company (2006), Limited by 19-Dec-2016 at 11:26am]]
-# [[Escalate to Mia Lee by 13-Apr-2016 at 10:07pm]]
-# [[Schedule Meeting with Blake Wu of Auckland Food Society by 13-Aug-2016 at 09:33am]]
-# [[Send Reply to Maia Walker by 14-Nov-2016 at 05:26pm]]
-# [[Follow Up with Chloe Thompson by 21-Apr-2016 at 08:44pm]]
-# [[Schedule Meeting with Oliver Lee of Wellington Builders Supply Institute by 18-Aug-2016 at 03:29pm]]
-# [[Consult with Glen Eden Advocacy Society, Incorporated by 21-Oct-2016 at 08:50pm]]</pre>
+# [[$:/core/wiki/title]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20160324154816312" modified="20160324154859734" tags="SampleDataExtras" title="$:/SiteSubtitle">
-<pre>&lt;center&gt;A playground for the [ext[TiddlyCRM|https://trello.com/b/IiYqc4IG/tiddlycrm]] project.&lt;/center&gt;</pre>
+<div created="20160324154816312" modified="20160429093508771" tags="SampleDataExtras" title="$:/SiteSubtitle">
+<pre>&lt;center&gt;A [[SemesterProject|https://dl.dropboxusercontent.com/s/tk91wqty552z6z1/designwrite.html#SemesterProject]] for ''&amp;#123;&amp;#123;DesignWrite&amp;#125;&amp;#125;'',&lt;br&gt; by [[HegartDmishiv|https://dl.dropboxusercontent.com/s/y5yubous01eyifc/HegartDmishiv-on-DesignWrite.html]] and Andrew Myers.&lt;/center&gt;</pre>
 </div>
-<div created="20160324154602192" modified="20160328175400660" tags="SampleDataExtras" title="$:/SiteTitle">
-<pre>&lt;center&gt;SampleData Playground&lt;/center&gt;</pre>
+<div alt-caption="TiddlyCRM" created="20160324154602192" modified="20160429093649646" tags="SampleDataExtras" title="$:/SiteTitle">
+<pre>&lt;center&gt;[img[https://dl.dropboxusercontent.com/s/6tn5so707ip039k/TiddlyCRM_150x175.png]]&lt;/center&gt;</pre>
 </div>
-<div list="Home" title="$:/StoryList">
+<div list="$:/ControlPanel $:/Import Home" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20160408122949771" list="$:/_Templates/TopBar $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body" modified="20160408122959067" tags="SampleDataExtras" title="$:/tags/ViewTemplate">
